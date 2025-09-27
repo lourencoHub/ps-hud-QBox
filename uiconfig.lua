@@ -4,7 +4,7 @@ UIConfig.icons = {}
 
 UIConfig.icons['armed'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -14,12 +14,12 @@ UIConfig.icons['armed'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['armor'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -29,12 +29,12 @@ UIConfig.icons['armor'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['cruise'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -44,12 +44,12 @@ UIConfig.icons['cruise'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['dev'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -59,12 +59,12 @@ UIConfig.icons['dev'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['engine'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -74,12 +74,12 @@ UIConfig.icons['engine'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['harness'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -89,12 +89,12 @@ UIConfig.icons['harness'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['health'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -104,12 +104,12 @@ UIConfig.icons['health'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['hunger'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -119,12 +119,12 @@ UIConfig.icons['hunger'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['nitro'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -134,12 +134,12 @@ UIConfig.icons['nitro'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['oxygen'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -149,12 +149,12 @@ UIConfig.icons['oxygen'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['parachute'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -164,12 +164,12 @@ UIConfig.icons['parachute'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['stress'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -179,12 +179,12 @@ UIConfig.icons['stress'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['thirst'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -194,12 +194,12 @@ UIConfig.icons['thirst'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.icons['voice'] = {
     displayOutline = true,
-    height = 47,
+    height = 50,
     iconRotateDegree = 0,
     iconScaling = 0.4,
     iconTranslateX = 0,
@@ -209,13 +209,13 @@ UIConfig.icons['voice'] = {
     shape = 'hexagon-ring',
     translateX = 0,
     translateY = 0,
-    width = 47,
+    width = 50,
 }
 
 UIConfig.layout = {
-    xAxisSpacing = 0,
-    iconBetweenSpacing = 4,
+    iconBetweenSpacing = 2,
     yAxisSpacing = 0,
+    xAxisSpacing = 0,
     layout = 'standard',
 }
 
@@ -242,28 +242,28 @@ UIConfig.colors['armed'] = {
 UIConfig.colors['armor'] = {
     colorEffects = {
         [1] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'armor',
-            outlineColor = '#535454ff',
+            outlineColor = '#326dbf66',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#088ec5ff',
+            progressColor = '#326dbf',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
         [2] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'no-armor',
-            outlineColor = '#838383ff',
+            outlineColor = '#ff000066',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#b2b0b0ff',
+            progressColor = '#ff0000',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
@@ -371,15 +371,15 @@ UIConfig.colors['harness'] = {
 UIConfig.colors['health'] = {
     colorEffects = {
         [1] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'alive',
-            outlineColor = '#535454ff',
+            outlineColor = '#21ab6166',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#21ab61ff',
+            progressColor = '#21ab61',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
@@ -402,28 +402,28 @@ UIConfig.colors['health'] = {
 UIConfig.colors['hunger'] = {
     colorEffects = {
         [1] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'normal',
-            outlineColor = '#535454ff',
+            outlineColor = '#dd6e1466',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#8e0b98ff',
+            progressColor = '#dd6e14',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
         [2] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'starving',
             outlineColor = '#ff000066',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#ff0000ff',
+            progressColor = '#ff0000',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
@@ -464,15 +464,15 @@ UIConfig.colors['nitro'] = {
 UIConfig.colors['oxygen'] = {
     colorEffects = {
         [1] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'normal',
-            outlineColor = '#535454ff',
+            outlineColor = '#8aa8bd66',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#8aa8bdff',
+            progressColor = '#8aa8bd',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
@@ -500,15 +500,15 @@ UIConfig.colors['parachute'] = {
 UIConfig.colors['stress'] = {
     colorEffects = {
         [1] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'normal',
-            outlineColor = '#535454ff',
+            outlineColor = '#dc060666',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#dc0606ff',
+            progressColor = '#dc0606',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
@@ -518,28 +518,28 @@ UIConfig.colors['stress'] = {
 UIConfig.colors['thirst'] = {
     colorEffects = {
         [1] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'normal',
-            outlineColor = '#535454ff',
+            outlineColor = '#1a7cad66',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#f87bf8ff',
+            progressColor = '#1a7cad',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
         [2] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'thirsty',
             outlineColor = '#ff000066',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#ff0000ff',
+            progressColor = '#ff0000',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
@@ -554,7 +554,7 @@ UIConfig.colors['voice'] = {
             iconDropShadowAmount = 1,
             innerColor = '#212121ff',
             name = 'not-talking',
-            outlineColor = '#535454ff',
+            outlineColor = '#ffffff66',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
             progressColor = '#ffffffff',
@@ -562,28 +562,28 @@ UIConfig.colors['voice'] = {
             progressDropShadowAmount = 1,
         },
         [2] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'talking',
-            outlineColor = '#1a7cad46',
+            outlineColor = '#FFFF3E66',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#00a5beff',
+            progressColor = '#FFFF3E',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },
         [3] = {
-            iconColor = '#ffffffff',
+            iconColor = '#FFFFFFFF',
             iconContrast = 100,
             iconDropShadowAmount = 1,
-            innerColor = '#212121ff',
+            innerColor = '#212121FF',
             name = 'radio-talking',
-            outlineColor = '#d6476366',
+            outlineColor = '#D6476366',
             outlineContrast = 100,
             outlineDropShadowAmount = 0,
-            progressColor = '#d64763ff',
+            progressColor = '#D64763',
             progressContrast = 100,
             progressDropShadowAmount = 1,
         },

@@ -684,9 +684,9 @@ RegisterCommand('motor', function()
     local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
     if vehicle == 0 or GetPedInVehicleSeat(vehicle, -1) ~= PlayerPedId() then return end
     if GetIsVehicleEngineRunning(vehicle) then
-         exports['k_ui']:Notify(Lang:t("notify.engine_off"))
+        QBCore.Functions.Notify(Lang:t("notify.engine_off"), "info")
     else
-         exports['k_ui']:Notify(Lang:t("notify.engine_on"))
+        QBCore.Functions.Notify(Lang:t("notify.engine_on"), "success")
     end
     SetVehicleEngineOn(vehicle, not GetIsVehicleEngineRunning(vehicle), false, true)
 end)
@@ -814,10 +814,15 @@ local function getFuelLevel(vehicle)
     local updateTick = GetGameTimer()
     if (updateTick - lastFuelUpdate) > 2000 then
         lastFuelUpdate = updateTick
-        lastFuelCheck = math.floor(exports[Config.FuelScript]:GetFuel(vehicle))
+        if Config.FuelScript == 'ox_fuel' then
+            lastFuelCheck = math.floor(Entity(vehicle).state.fuel or GetVehicleFuelLevel(vehicle))
+        else
+            lastFuelCheck = math.floor(exports[Config.FuelScript]:GetFuel(vehicle))
+        end
     end
     return lastFuelCheck
 end
+
 
 -- HUD Update loop
 
@@ -987,21 +992,33 @@ function isElectric(vehicle)
 end
 
 -- Low fuel
+
 CreateThread(function()
     while true do
+        Wait(10000) -- verifica a cada 10s
         if LocalPlayer.state.isLoggedIn then
             local ped = PlayerPedId()
-            if IsPedInAnyVehicle(ped, false) and not IsThisModelABicycle(GetEntityModel(GetVehiclePedIsIn(ped, false))) and not isElectric(GetVehiclePedIsIn(ped, false)) then
-                if exports[Config.FuelScript]:GetFuel(GetVehiclePedIsIn(ped, false)) <= 20 then -- At 20% Fuel Left
-                    if Menu.isLowFuelChecked then
-                        TriggerServerEvent("InteractSound_SV:PlayOnSource", "pager", 0.10)
-                         exports['k_ui']:Notify(Lang:t("notify.low_fuel"), "error")
-                        Wait(60000) -- repeats every 1 min until empty
+            if IsPedInAnyVehicle(ped, false) then
+                local vehicle = GetVehiclePedIsIn(ped, false)
+                if vehicle and vehicle ~= 0 and not IsThisModelABicycle(GetEntityModel(vehicle)) and not isElectric(vehicle) then
+                    local fuelLevel = 0
+
+                    if Config.FuelScript == 'ox_fuel' then
+                        fuelLevel = Entity(vehicle).state.fuel or GetVehicleFuelLevel(vehicle)
+                    else
+                        fuelLevel = exports[Config.FuelScript]:GetFuel(vehicle)
+                    end
+
+                    if fuelLevel and fuelLevel <= 20 then
+                        if Menu.isLowFuelChecked then
+                            TriggerServerEvent("InteractSound_SV:PlayOnSource", "pager", 0.10)
+                            QBCore.Functions.Notify(Lang:t("notify.low_fuel"), "error")
+                            Wait(60000) -- espera 1 min antes de avisar de novo
+                        end
                     end
                 end
             end
         end
-        Wait(10000)
     end
 end)
 
